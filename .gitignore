@@ -1,0 +1,29 @@
+# Datos crudos y procesados (pesados, se regeneran desde Kaggle + notebooks)
+data/raw/
+data/processed/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Artefactos de Kaggle / credenciales
+*.zip
+kaggle.json
+access_token
+
+# Modelos y artefactos pesados generados por los notebooks
+outputs/*.pkl
+outputs/*.joblib
+outputs/*.pickle
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Entornos y editores
+.env
+.vscode/
+.idea/
